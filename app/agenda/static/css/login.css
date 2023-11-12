@@ -1,0 +1,131 @@
+.content {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    z-index: -2;
+    left: 0;
+    right: 0;
+    background: linear-gradient(90deg, rgba(106, 223, 66, 0.4), rgba(0, 74, 217, 0.5));
+
+}
+.container-center {
+    
+    display: flex;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    height: 100vh;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+
+}
+.inner-container {
+    max-width: 700px;
+    padding: 20px;
+}
+h1 {
+    font-weight: bold; /* Aplica negrita */
+    font-size: 34px; /* Establece el tamaño de fuente en 34px */
+    color: black;
+}
+small {
+    font-weight: normal; /* Aplica un grosor de fuente normal (regular) */
+    font-size: 15px; /* Establece el tamaño de fuente en 15px */
+    color: black;
+}
+
+h5 {
+    font-weight: lighter; /* Aplica negrita */
+    font-size: 10px; /* Establece el tamaño de fuente en 34px */
+}
+
+
+.header-title {
+    position: relative;
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.panel {
+    background-color: transparent;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    color: #000000;
+    max-width: 700px; 
+    margin: 10% auto 0;
+}
+/* .panel-body {
+    padding: 10px 15px 15px 15px;
+} */
+
+
+.btnstart {
+    background: radial-gradient(circle, #F1C3A2, #FE9E75); /* Color naranja */
+    border-radius: 22px; /* Ajusta el valor según el grado de redondez deseado */
+    padding: 7px 40px; /* Ajusta el relleno (padding) según tus necesidades */
+    color: #fff; /* Color del texto en blanco */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px; /* Tamaño de fuente */
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.btnstart:hover {
+    background-color: #FFD700; /* Cambiar el color de fondo al pasar el cursor */
+    border: 2px solid #FFD700; /* Cambiar el color del borde al pasar el cursor */
+}
+
+
+.form-registro {
+
+    position: relative;
+    width: 320px; 
+    height: 54px;
+    background: white;
+    border-radius: 10px; 
+    border: 1px rgba(0, 0, 0, 0.10) solid;
+    margin-bottom: 5px;
+
+}
+.span-izquierda{
+    left: 14px; 
+    top: 20px; 
+    position: relative; 
+    color: #6D7278; 
+    font-size: 12px; 
+    font-family: sans-serif;
+    font-weight: lighter;
+    width: 74px;
+
+}
+.division{
+    width: 1px;
+    height: 24px;
+    left: 115px;
+    top: 15px; 
+    position: absolute; 
+    background: rgba(0, 0, 0, 0.10)
+}
+.span-derecha{
+    left: 125px; 
+    top: 20px; 
+    position: absolute; 
+    color: #6D7278; 
+    font-size: 12px; 
+    font-family: sans-serif;
+    font-weight: lighter;
+    word-wrap: break-word;
+}
+
+
+input{
+    border: 0px solid #ccc; /* Define un borde personalizado (puedes ajustar el color y el grosor según tus preferencias) */
+    outline: none;
+    width: 180px;
+}

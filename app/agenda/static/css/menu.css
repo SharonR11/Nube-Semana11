@@ -1,0 +1,37 @@
+.content {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    z-index: -2;
+    left: 0;
+    right: 0;
+    background: linear-gradient(90deg, rgba(106, 223, 66, 0.4), rgba(0, 74, 217, 0.5));
+
+}
+.container-center {
+    
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    height: 100vh;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+
+}
+h2 {
+    font-weight: bold; /* Aplica negrita */
+    font-size: 32px; /* Establece el tamaño de fuente en 34px */
+    color: black;
+}
+
+.header-title {
+    position: relative;
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+
